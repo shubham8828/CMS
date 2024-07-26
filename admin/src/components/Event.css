@@ -1,0 +1,15 @@
+.tableContainer{
+    text-align: center;
+    justify-content: space-around;
+
+}
+table{
+    justify-content: space-around;
+    border: 2px solid red;
+    width: 80%;
+    margin-left: 10%;
+}
+
+tr{
+
+}
