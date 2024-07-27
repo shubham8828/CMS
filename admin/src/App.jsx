@@ -1,5 +1,6 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 import Home from "./pages/Home"
 import Student from "./pages/Student"
 import Teacher from "./pages/Teacher"
@@ -19,7 +20,7 @@ const App = () => {
       <Route path="/classes" element={<Class/>}/>
       <Route path="/labs" element={<Lab/>}/>
     </Routes>
-
+    <Footer />
     </BrowserRouter>
   )
 }

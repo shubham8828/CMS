@@ -1,0 +1,122 @@
+[
+    {
+        "studentid": "S001",
+        "name": "Alice Johnson",
+        "class": "10A",
+        "rollno": "001"
+    },
+    {
+        "studentid": "S002",
+        "name": "Bob Smith",
+        "class": "10A",
+        "rollno": "002"
+    },
+    {
+        "studentid": "S003",
+        "name": "Charlie Brown",
+        "class": "10B",
+        "rollno": "003"
+    },
+    {
+        "studentid": "S004",
+        "name": "David Williams",
+        "class": "10B",
+        "rollno": "004"
+    },
+    {
+        "studentid": "S005",
+        "name": "Emma Davis",
+        "class": "10C",
+        "rollno": "005"
+    },
+    {
+        "studentid": "S006",
+        "name": "Fiona Garcia",
+        "class": "10C",
+        "rollno": "006"
+    },
+    {
+        "studentid": "S007",
+        "name": "George Martinez",
+        "class": "10D",
+        "rollno": "007"
+    },
+    {
+        "studentid": "S008",
+        "name": "Hannah Wilson",
+        "class": "10D",
+        "rollno": "008"
+    },
+    {
+        "studentid": "S009",
+        "name": "Ian Anderson",
+        "class": "11A",
+        "rollno": "009"
+    },
+    {
+        "studentid": "S010",
+        "name": "Julia Thomas",
+        "class": "11A",
+        "rollno": "010"
+    },
+    {
+        "studentid": "S011",
+        "name": "Kevin Robinson",
+        "class": "11B",
+        "rollno": "011"
+    },
+    {
+        "studentid": "S012",
+        "name": "Laura Clark",
+        "class": "11B",
+        "rollno": "012"
+    },
+    {
+        "studentid": "S013",
+        "name": "Mia Lewis",
+        "class": "11C",
+        "rollno": "013"
+    },
+    {
+        "studentid": "S014",
+        "name": "Nathan Walker",
+        "class": "11C",
+        "rollno": "014"
+    },
+    {
+        "studentid": "S015",
+        "name": "Olivia Hall",
+        "class": "12A",
+        "rollno": "015"
+    },
+    {
+        "studentid": "S016",
+        "name": "Paul Young",
+        "class": "12A",
+        "rollno": "016"
+    },
+    {
+        "studentid": "S017",
+        "name": "Quinn Allen",
+        "class": "12B",
+        "rollno": "017"
+    },
+    {
+        "studentid": "S018",
+        "name": "Rachel Scott",
+        "class": "12B",
+        "rollno": "018"
+    },
+    {
+        "studentid": "S019",
+        "name": "Sam Wright",
+        "class": "12C",
+        "rollno": "019"
+    },
+    {
+        "studentid": "S020",
+        "name": "Tina Adams",
+        "class": "12C",
+        "rollno": "020"
+    }
+]

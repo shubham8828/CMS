@@ -1,11 +1,11 @@
 import React from 'react'
 import './Event.css'
-import eventData from '../data/data.json'
+import eventData from '../data/event.data.json'
 const Event = () => {
   return (
 <div className='tableContainer'>
       <h2>Event Data Table</h2>
-      <table border={'2px'}>
+      <table >
         <thead>
           <tr>
             <th>Serial No.</th>
@@ -14,7 +14,7 @@ const Event = () => {
             <th>Room No.</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody >
           {eventData.map(event => (
             <tr key={event.srno}>
               <td>{event.srno}</td>

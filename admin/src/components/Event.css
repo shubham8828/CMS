@@ -3,6 +3,7 @@
     justify-content: space-around;
 
 }
+
 table{
     justify-content: space-around;
     border: 2px solid red;
@@ -10,6 +11,3 @@ table{
     margin-left: 10%;
 }
 
-tr{
-
-}
