@@ -1,7 +1,8 @@
 .cardContainer{
     display: flex;
-    margin-top: 20px;
-    justify-content: space-around;
+    flex-direction: row;
+    column-gap: 35px;
+   
 }
 
 .card{

@@ -8,7 +8,7 @@ import { RiComputerFill } from "react-icons/ri";
 
 const Card = () => {
   return (
-    <div className='cardContainer'>
+    <div className='cardContainer'> 
         <div className='card'>
           <h3>Class Rooms </h3>
             <SiGoogleclassroom className='classIcon'/> 

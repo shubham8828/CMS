@@ -1,0 +1,22 @@
+.Navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+}
+
+.Footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+}
+
+.Pages{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: auto;
+}

@@ -1,4 +1,4 @@
-.footer {
+.Footer {
     background-color: #f1f1f1;
     color: #333;
     padding: 10px 0;
@@ -6,20 +6,20 @@
     border-top: 1px solid #ddd;
 }
 
-.footer-content {
+.Footer-content {
     margin: 0 auto;
     max-width: 800px;
 }
 
-.footer-content p {
+.Footer-content p {
     margin: 5px 0;
 }
 
-.footer-content a {
+.Footer-content a {
     color: #007bff;
     text-decoration: none;
 }
 
-.footer-content a:hover {
+.Footer-content a:hover {
     text-decoration: underline;
 }

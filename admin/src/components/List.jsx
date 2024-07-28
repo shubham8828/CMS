@@ -1,22 +1,22 @@
 import React from 'react'
-import studentData from '../data/student.data.json'
 import  './Event.css'
-const studentList = () => {
+
+const List = ({Data,title,id,name,classes,rollNo}) => {
   return (
 
     <div className='tableContainer'>
-        <h1>Student List</h1>
+        <h1>{title}</h1>
         <table>
             <thead>
                 <tr>
-                    <th>Student ID</th>
-                    <th>Name</th>
-                    <th>Class</th>
-                    <th>Roll No</th>
+                    <th>{id}</th>
+                    <th>{name}</th>
+                    <th>{classes}</th>
+                    <th>{rollNo}</th>
                 </tr>
             </thead>
             <tbody>
-                {studentData.map(student => (
+               { Data.map(student => (
                     <tr key={student.studentid}>
                         <td>{student.studentid}</td>
                         <td>{student.name}</td>
@@ -24,10 +24,11 @@ const studentList = () => {
                         <td>{student.rollno}</td>
                     </tr>
                 ))}
+                
             </tbody>
         </table>
     </div>
   )
 }
 
-export default studentList
+export default List
