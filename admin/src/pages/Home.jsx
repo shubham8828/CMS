@@ -1,28 +1,33 @@
-import React from 'react'
-import Card from '../components/Card'
-import List from '../components/List'
-import './Home.css'
-import studentData from '../data/student.data.json'
-import Event from '../components/Event'
+import React from "react";
+import Card from "../components/Card";
+import List from "../components/List";
 
+import studentData from "../data/student.data.json";
+import eventData from "../data/event.data.json";
 
 const Home = () => {
   return (
-    <div className='HomePage'>
-      <div className='Card'>
-        <Card />
-      </div>
-      <div className='Card'>
-       <Event />
-      </div>
-      <div className='Card'>
-        <List Data={studentData} title={'Student List'} 
-          id={'Student ID'} name={'Name'} classes={'Class'}
-          rollNo={'Roll No'}
-        />
-      </div>
-    </div>
-  )
-}
+    <>
+      <Card />
 
-export default Home
+      <List
+        Data={eventData}
+        title={"Event List"}
+        id={"SrNo."}
+        name={"Event Name"}
+        classes={"Place"}
+        rollNo={"Room No."}
+      />
+      <List
+        Data={studentData}
+        title={"Student List"}
+        id={"Student ID"}
+        name={"Name"}
+        classes={"Class"}
+        rollNo={"Roll No"}
+      />
+    </>
+  );
+};
+
+export default Home;

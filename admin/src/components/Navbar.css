@@ -1,9 +1,9 @@
 .NavbarContainer{
-    width:auto;
+    width:100%;
     background: rgb(201, 255, 196);
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 10px 0px;
     
 }
 .NavbarContainer span{

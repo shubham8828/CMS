@@ -14,7 +14,7 @@ const App = () => {
     <BrowserRouter>
       <div className="Navbar">
         <Navbar />
-      </div>
+      
       <Routes>
           <Route path="/" element={
             <div className="Pages">
@@ -23,15 +23,41 @@ const App = () => {
           } />
         
 
-          <Route path="/students" element={<Student />} />
-          <Route path="/teachers" element={<Teacher/>}/>
-          <Route path="/schedules" element={<Schedule/>}/>
-          <Route path="/classes" element={<Class/>}/>
-          <Route path="/labs" element={<Lab/>}/>
+          <Route path="/students" element={
+            <div className="Pages">
+              <Student />
+            </div>
+          }/>
+          
+          <Route path="/teachers" element={
+            <div className="Pages">
+              <Teacher/>
+            </div>
+            
+          }/>
+          <Route path="/schedules" element={
+            <div className="Pages">
+            
+              <Schedule/>
+            </div>
+          }/>
+          <Route path="/classes" element={
+            <div className="Pages">
+            
+              <Class/>
+            </div>
+          }/>
+          <Route path="/labs" element={
+            <div className="Pages">
+        
+            <Lab/>
+          </div>  
+          }/>
       </Routes>
       <div className="Footer">
         <Footer />
       </div>
+    </div>
     </BrowserRouter>
   );
 };

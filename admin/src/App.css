@@ -7,16 +7,17 @@
 }
 
 .Footer {
-    position: fixed;
-    bottom: 0;
+    position: relative;
     left: 0;
+    top: 0;
     width: 100%; 
+
 }
 
 .Pages{
-    position: absolute;
-    top: 70px;
+    position: relative;
+    top: 0px;
     left: 0;
     width: 100%;
-    height: auto;
+    /* height: auto; */
 }

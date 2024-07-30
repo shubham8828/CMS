@@ -1,5 +1,6 @@
 import React from 'react'
-import  './Event.css'
+import  './List.css'
+
 
 const List = ({Data,title,id,name,classes,rollNo}) => {
   return (
@@ -16,12 +17,12 @@ const List = ({Data,title,id,name,classes,rollNo}) => {
                 </tr>
             </thead>
             <tbody>
-               { Data.map(student => (
-                    <tr key={student.studentid}>
-                        <td>{student.studentid}</td>
-                        <td>{student.name}</td>
-                        <td>{student.class}</td>
-                        <td>{student.rollno}</td>
+               { Data.map(data => (
+                    <tr key={data.id}>
+                        <td>{data.id}</td>
+                        <td>{data.name}</td>
+                        <td>{data.class}</td>
+                        <td>{data.rollno}</td>
                     </tr>
                 ))}
                 
